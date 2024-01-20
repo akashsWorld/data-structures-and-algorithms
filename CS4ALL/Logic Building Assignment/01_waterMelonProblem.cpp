@@ -9,14 +9,14 @@ void solve() {
 
 	// Write code here
 
-	int n ;
 
+	int n ;
 
 	cin >> n;
 
-	if (n % 2 == 0) {
+	if (n % 2 == 0 and (n / 2) % 2 == 0) {
 		cout << "YES" << endl;
-		return ;
+		return;
 	}
 
 	cout << "NO" << endl;
@@ -26,10 +26,8 @@ void solve() {
 
 int main() {
 
-// #ifndef ONLINE_JUDGE
-// 	// freopen("input.txt", "r", stdin);
-// 	// freopen("output.txt", "w", stdout);
-// #endif
+	freopen("input.txt", "r", stdin);
+	freopen("output.txt", "w", stdout);
 
 	solve();
 
